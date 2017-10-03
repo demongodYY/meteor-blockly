@@ -1,0 +1,17 @@
+{
+  "name": "blockly-meteor",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "google-closure-library": "^20170910.0.0",
+    "meteor-node-stubs": "~0.2.4",
+    "node-blockly": "^1.0.26"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0"
+  }
+}

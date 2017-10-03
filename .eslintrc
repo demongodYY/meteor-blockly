@@ -1,0 +1,29 @@
+{   "parser": "babel-eslint",
+    "rules": {
+        "curly": ["error", "multi-line"],
+        "eol-last": ["error"],
+        "indent": ["error", 2, {"SwitchCase": 1}], 
+        "linebreak-style": ["error", "unix"],
+        "max-len": ["error", 120, 4],
+        "no-trailing-spaces": ["error", { "skipBlankLines": true }],
+        "no-unused-vars": ["error", {"args": "after-used", "varsIgnorePattern": "^_"}],
+        "no-use-before-define": ["error"],
+        "quotes": ["off"], 
+        "semi": ["error", "always"],
+        "space-before-function-paren": ["error", "never"], 
+        "strict": ["off"], 
+        "no-cond-assign": ["off"], 
+        "no-redeclare": ["off"],
+        "valid-jsdoc": ["error", {"requireReturn": false}],
+        "no-console": ["off"],
+        "linebreak-style": "off"
+    },
+    "env": {
+        "browser": true
+    },
+    "globals": {
+        "Blockly": true,
+        "goog": true
+    },
+    "extends": "eslint:recommended"
+}
